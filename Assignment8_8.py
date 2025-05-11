@@ -1,8 +1,12 @@
 def Star(num):
+    star = ''
+    for i in range (num):
+     star += "*"
+    return star
         
 def main():
     print("Enter how many stars you want ?")
-    n = str(input())
+    n = int(input())
     ans = Star(n)
     print(ans)
 
